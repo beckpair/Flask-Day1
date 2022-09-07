@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <!-- Header section -->
+    <header class="row">
+        <div class="col-12 col-md-12" id="header-text">
+            <h1 class="display-1 text-center">Your Stacks</h1>
+        </div>
+        <!-- Header Image -->
+        <div class="col-12 col-mg-6">
+            <img src="../../static/images/shelves.png" class="mx-auto d-block" alt="Bookshelves" class="header-img" id="shelves-img">
+        </div>
+    </header>
+    <!-- End of Header -->
+    <!-- Bookshelves Section -->
+    <section class="row" id="bookshelves-section">
+        <div class="col-12 col-md-4" id="my-favorites">
+            <img src="../../static/images/gideon-nav.jpg" class="mx-auto d-block" alt="" id="favorites-image">
+            <a href=# class="text-body text-decoration-none"><h4 class="fs-2 text-center display-2" id="favorites"><strong>My Favorites</strong></h4></a>
+        </div>
+        <div class="col-12 col-md-4" id="TBR">
+            <img src="../../static/images/sun.jpg" class="mx-auto d-block" alt="Pie Graph" id="tbr-image">
+            <a href=# class="text-body text-decoration-none"><h4 class="fs-2 text-center display-2" id="to-be-read"><strong>To Be Read</strong></h4></a>
+        </div>
+        <div class="col-12 col-md-4" id="wishlist">
+            <img src="../../static/images/hell-bent.jpg" class="mx-auto d-block" alt="" id="wish-image">
+            <a href=# class="text-body text-decoration-none"><h4 class="fs-2 text-center display-2" id="wish"><strong>Wishlist</strong></h4></a>
+        </div>
+    </section>  
+        </div>
+
+</div>
+
+{% endblock content %}
