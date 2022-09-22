@@ -1,0 +1,1 @@
+web: gunicorn personal_library:app --preload --timeout 60

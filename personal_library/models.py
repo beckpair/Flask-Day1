@@ -46,3 +46,38 @@ class User(db.Model, UserMixin):
 
     def __repr__(self):
         return f"User {self.email} has been added to the database!"
+
+class Book(db.Model):
+    id = db.Column(db.String, primary_key = True)
+    author = db.Column(db.String)
+    title = db.Column(db.String, nullable = True)
+    genre = db.Column(db.String)
+    pages = db.Column(db.String)
+    isbn = db.Column(db.String)
+    publisher = db.Column(db.String)
+    year = db.Column(db.String)
+    user_token = db.Column(db.String, db.ForeignKey('user.token'), nullable = False)
+
+    def __init__(self, author, title, genre, pages, isbn, publisher, year, user_token, user_id = ''):
+        self.id = self.set_id()
+        self.author = author
+        self.title = title
+        self.genre = genre
+        self.pages = pages
+        self.isbn = isbn
+        self.publisher = publisher
+        self.year = year
+        self.user_token = user_token
+    
+    def __repr__(self):
+        return f"The following book has been added: {self.title}"
+
+    def set_id(self):
+        return secrets.token_urlsafe()
+
+class BookSchema(ma.Schema):
+    class Meta:
+        fields = ['id', 'author', 'title', 'genre', 'pages', 'isbn', 'publisher', 'year']
+
+book_schema = BookSchema()
+books_schema = BookSchema(many = True)

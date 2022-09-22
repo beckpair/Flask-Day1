@@ -1,0 +1,83 @@
+[
+    {
+        "author": "Tamsyn Muir", 
+        "title": "Gideon the Ninth", 
+        "genre": ["Science-fiction", "fantasy", "science-fantasy"], 
+        "pages": "448", 
+        "isbn": "9781250313195", 
+        "publisher": "Tordotcom", 
+        "year": "2019"
+    }, 
+    {
+        "author": "Tracy Deonn", 
+        "title": "Legendborn", 
+        "genre": ["YA", "fantasy"], 
+        "pages": "501", 
+        "isbn": "1534441603", 
+        "publisher": "McElderry Books", 
+        "year": "2020"
+    }, 
+    {
+        "author": "S.A. Chakraborty", 
+        "title": "City of Brass", 
+        "genre": ["Fantasy", "high fantasy", "adventure fantasy"], 
+        "pages": "532", 
+        "isbn": "0062678108", 
+        "publisher": "Harper Voyager", 
+        "year": "2017"
+    }, 
+    {
+        "author": "Maggie Stiefvater", 
+        "title": "The Raven Boys", 
+        "genre": ["YA", "fantasy"], 
+        "pages": "409", 
+        "isbn": "9780545424929", 
+        "publisher": "Scholastic", 
+        "year": "2012"
+    }, 
+    {
+        "author": "Sarah J Maas", 
+        "title": "Heir of Fire", 
+        "genre": ["Fantasy", "high fantasy"], 
+        "pages": "576", 
+        "isbn": "9781619630659", 
+        "publisher": "Bloomsbury", 
+        "year": "2014"
+    }, 
+    {
+        "author": "Leigh Bardugo", 
+        "title": "Ninth House", 
+        "genre": ["Fantasy", "thriller", "paranormal"], 
+        "pages": "458", 
+        "isbn": "1250313074", 
+        "publisher": "Flatiron", 
+        "year": "2019"
+    }, 
+    {
+        "author": "C.L. Clark", 
+        "title": "The Unbroken", 
+        "genre": ["Fantasy", "high fantasy"], 
+        "pages": "544", 
+        "isbn": "031654275X", 
+        "publisher": "Orbit", 
+        "year": "2021"
+    }, 
+    {
+        "author": "Elizabeth Lim", 
+        "title": "Six Crimson Cranes", 
+        "genre": ["Fantasy", "High fantasy"], 
+        "pages": "480", 
+        "isbn": "0593300912", 
+        "publisher": "Knopf", 
+        "year": "2021"
+    }, 
+    {
+        "author": "Samantha Shannon", 
+        "title": "The Priory of the Orange Tree", 
+        "genre": ["Fantasy", "high fantasy", "adventure fantasy"], 
+        "pages": "848", 
+        "isbn": "1635570298", 
+        "publisher": "Bloomsbury", 
+        "year": "2019"
+    }
+]
