@@ -1,1 +1,1 @@
-web: gunicorn personal_library:app --preload --timeout 60
+web: gunicorn bookstack-library:app --preload --timeout 60
